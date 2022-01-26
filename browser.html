@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<title>CATALOGO LISTA</title>
+
+	<!-- I meta servono per metadatare cioé descrivere il mio documento -->
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Roger Wouters, Lorenzo Manenti, arte" />
+	<meta name="description" content="Opere e biografia di Roger Wouters" />
+	<meta name="author" content="Lorenzo Manenti" />
+	<meta name="viewport" content="width=device-width, intial-scale=1-0" />
+	<!--Dovrebbe essere per rendere responsive-->
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style/style.css" />
+	<!--voglio utilizzare i nomi delle icone di google così come sono nel CSS google-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+			<a class="navbar-brand menu-item" href="index.html">
+				<h2>ROGER WOUTERS</h2>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+					<li class="nav-item">
+						<a class="nav-link menu-item" href="artista.html">L'artista<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link menu-item" href="biografia.html">Biografia</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle menu-item active" href="browser.html" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Quadri</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+							<li><a class="dropdown-item menu-item" href="browser.html">Tutti i quadri</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item menu-item" href="disabled">Primi anni</a></li>
+							<li><a class="dropdown-item menu-item" href="anniitaliani.html">Anni italiani</a></li>
+							<li><a class="dropdown-item menu-item" href="disabled">Ultimi anni</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled menu-item">Interviste</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled menu-item">Contatti</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control mr-2" type="search" placeholder="Cerca nel sito" aria-label="Cerca nel sito">
+					<button class="btn btn-outline-dark" type="submit">Cerca</button>
+				</form>
+			</div>
+		</nav>
+
+	</header>
+
+
+	<section id="sfondo">
+		<div id="fasciaintestazione">
+			<h2><i>I quadri</i></h2>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+
+
+				<!--Aside sinistra-->
+				<div class="col-md-2">
+					<aside>
+						<!-- breadcrumbs -->
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a class="breadcrumb-link" href="index.html">Home</a></li>
+								<li class="breadcrumb-item"><a class="breadcrumb-link" href="biografia.html">Bio</a></li>
+								<li class="breadcrumb-item"><a class="breadcrumb-link" href="browser.html"><b>Collezione</b></a></li>
+							</ol>
+						</nav>
+						<h4 class="mb-0">Ordina la collezione:</h4>
+						<div class="checkbox-container">
+							<div class="btn-group-toggle" data-toggle="buttons">
+								<label class="btn btn-outline-secondary active mt-1">
+									<input type="radio" checked> A-Z
+								</label>
+								<label class="btn btn-outline-secondary mt-1">
+									<input type="radio"> Z-A
+								</label>
+								<label class="btn btn-outline-secondary mt-1">
+									<input type="radio">Ordine cronologico
+								</label>
+								<label class="btn btn-outline-secondary mt-1">
+									<input type="radio">Ordine dimensioni
+								</label>
+							</div>
+						</div>
+						<div class="checkbox-container mt-4">
+							<h4 class="mb-0">Filtra la lista:</h4>
+							<div class="dropdown dropright mt-1">
+								<button class="btn btn-warning btn-warning dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Opere
+								</button>
+								<div class="dropdown-menu p-3">
+									<input type="checkbox">
+									<label>Primi anni</label><br>
+									<input type="checkbox">
+									<label>Anni italiani</label><br>
+									<input type="checkbox">
+									<label>Ultimi anni</label><br>
+									<button type="button" class="btn btn-warning mt-2">Filtra</button>
+								</div>
+							</div>
+							<div class="dropdown dropright mt-1">
+								<button class="btn btn-warning btn-blue dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Date
+								</button>
+								<div class="dropdown-menu p-3">
+									<!-- checkbox -->
+									<input type="checkbox">
+									<label>1962</label><br>
+									<input type="checkbox">
+									<label>1965</label><br>
+									<input type="checkbox">
+									<label>1966</label><br>
+									<input type="checkbox">
+									<label>1969</label><br>
+									<input type="checkbox">
+									<label>1974</label><br>
+									<input type="checkbox">
+									<label>1975</label><br>
+									<input type="checkbox">
+									<label>1980</label><br>
+									<input type="checkbox">
+									<label>1981</label><br>
+									<input type="checkbox">
+									<label>1982</label><br>
+									<input type="checkbox">
+									<label>1984</label><br>
+									<button type="button" class="btn btn-warning mt-2">Filtra</button>
+								</div>
+							</div>
+							<div class="dropdown dropright mt-1">
+								<button class="btn btn-warning btn-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Tecniche
+								</button>
+								<div class="dropdown-menu p-3">
+									<input type="checkbox">
+									<label>Olio su tela</label><br>
+									<input type="checkbox">
+									<label>Acquarello</label><br>
+									<input type="checkbox">
+									<label>Acrilico su pannello</label><br>
+									<input type="checkbox">
+									<label>Pittura su ceramica</label><br>
+									<button type="button" class="btn btn-warning mt-2">Filtra</button>
+								</div>
+							</div>
+						</div>
+					</aside>
+				</div>
+				<!--Fine aside sinistra-->
+
+
+				<!--Area centrale della pagina con i quadri ordinati per periodo in schede-->
+				<div class="col-md-8">
+					<div class="container">
+
+						<!--Etichette dei 4 periodi-->
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="tuttiiquadri-tab" data-toggle="tab" href="#tuttiiquadri" role="tab" aria-controls="tuttiiquadri" aria-selected="true">Tutti i quadri</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="primianni-tab" data-toggle="tab" href="#primianni" role="tab" aria-controls="primianni" aria-selected="false">Primi anni</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="anniitaliani-tab" data-toggle="tab" href="#anniitaliani" role="tab" aria-controls="anniitaliani" aria-selected="false">Anni italiani</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="ultimianni-tab" data-toggle="tab" href="#ultimianni" role="tab" aria-controls="ultimianni" aria-selected="false">Ultimi anni</a>
+							</li>
+						</ul>
+						<!--Fine etichette dei 4 periodi-->
+
+
+						<!--Contenuti-->
+						<div class="tab-content" id="myTabContent"><br>
+
+							<!--Etichetta "Tutti i quadri"-->
+							<div class="tab-pane fade show active" id="tuttiiquadri" role="tabpanel" aria-labelledby="tuttiiquadri-tab">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/cassandra.jpeg" class="card-img-top" alt="Cassandra">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Cassandra</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1962">1962</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Primi anni">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>90 x 68 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/herlingen.jpeg" class="card-img-top" alt="Herlingen">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Herlingen</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1965">1965</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Primi anni">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>85 x 68 cm</b></p>
+													<p class="card-text">Tecnica: <b> Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/dehandvis.jpeg" class="card-img-top" alt="De Handvis">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">De Handvis</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1966">1966</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Primi anni">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>80 x 65 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/holland.jpeg" class="card-img-top" alt="Holland">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Holland</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1969">1969</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>150 x 92,5 cm</b></p>
+													<p class="card-text">Tecnica: <b>Acrilico su pannello</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/zondagmorgen.jpeg" class="card-img-top" alt="Zondag Morgen">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Zondag morgen</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1969">1969</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>100 x 80 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/zonder.jpeg" class="card-img-top" alt="Zonder">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Zonder</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1985">1974</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>80 x 70 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/paesaggioinvernale.jpeg" class="card-img-top" alt="Paesaggio invernale">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Paesaggio invernale</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1975">1975</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>69 x 59 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters </b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/arturo.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Arturo</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1976">1976</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b> raggio 22 cm</b></p>
+													<p class="card-text">Tecnica: <b>Pittura su ceramica</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/madreefiglia.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Maternità</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1980">1980</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>75 x 59 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/tulipani.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">I gerani</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1981">1981</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>60 x 52 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/ramiro.jpeg" class="card-img-top" alt="Ramiro">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Ramiro</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1982">1982</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Ultimi anni">Ultimi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>100 x 82 cm </b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters </b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/naturamorta.jpeg" class="card-img-top" alt="disabled">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Natura morta</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1984">1984</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Ultimi anni">Ultimi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>73 x 56 cm</b></p>
+													<p class="card-text">Tecnica: <b>Acquarello</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!--Fine etichetta "Tutti i quadri"-->
+
+
+							<!--Etichetta "Primi anni"-->
+							<div class="tab-pane fade" id="primianni" role="tabpanel" aria-labelledby="primianni-tab">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/cassandra.jpeg" class="card-img-top" alt="Cassandra">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Cassandra</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1962">1962</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Primi anni">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>90 x 68 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/herlingen.jpeg" class="card-img-top" alt="Herlingen">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Herlingen</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1965">1965</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Primi anni">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>85 x 68 cm</b></p>
+													<p class="card-text">Tecnica: <b> Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/dehandvis.jpeg" class="card-img-top" alt="De Handvis">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">De Handvis</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1966">1966</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Primi anni">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>80 x 65 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/holland.jpeg" class="card-img-top" alt="Holland">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Holland</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1969">1969</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>150 x 92,5 cm</b></p>
+													<p class="card-text">Tecnica: <b>Acrilico su pannello</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/zondagmorgen.jpeg" class="card-img-top" alt="Zondag Morgen">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Zondag morgen</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1969">1969</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Primi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>100 x 80 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--Fine etichetta "Primi anni"-->
+
+
+							<!--Etichetta "Anni italiani"-->
+							<div class="tab-pane fade" id="anniitaliani" role="tabpanel" aria-labelledby="anniitaliani-tab">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/zonder.jpeg" class="card-img-top" alt="Zonder">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Zonder</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1985">1974</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>80 x 70 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/paesaggioinvernale.jpeg" class="card-img-top" alt="Paesaggio invernale">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Paesaggio invernale</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1975">1975</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>69 x 59 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters </b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/arturo.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Arturo</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1976">1976</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b> raggio 22 cm</b></p>
+													<p class="card-text">Tecnica: <b>Pittura su ceramica</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/madreefiglia.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Maternità</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1980">1980</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="anniitaliani.html" title="Anni italiani">Anni italiani</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>75 x 59 cm</b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--Fine etichetta "Anni italiani"-->
+
+
+
+
+
+
+							<!--Etichetta "Ultimi anni"-->
+							<div class="tab-pane fade" id="ultimianni" role="tabpanel" aria-labelledby="ultimianni-tab">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/ramiro.jpeg" class="card-img-top" alt="Ramiro">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Ramiro</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1982">1982</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Ultimi anni">Ultimi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>100 x 82 cm </b></p>
+													<p class="card-text">Tecnica: <b>Olio su tela</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters </b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+											<img src="immagini/naturamorta.jpeg" class="card-img-top" alt="disabled">
+											<div class="card-body">
+												<div class="card-metadata">
+													<h4 class="card-title">Natura morta</h4>
+													<p class="card-text">Creatore: <b>Roger Wouters</b>.</p>
+													<p class="card-text">Data: <b><a href="#" title="1984">1984</a></b>.</p>
+													<p class="card-text">Periodo: <b><a href="disabled" title="Ultimi anni">Ultimi anni</a></b>.</p>
+													<p class="card-text">Dimensioni: <b>73 x 56 cm</b></p>
+													<p class="card-text">Tecnica: <b>Acquarello</b></p>
+													<p class="card-text">Istituzione fornitrice: <b>Casa museo Roger Wouters</b>.</p>
+												</div>
+											</div>
+											<a class="btn btn-warning" href="item.html" role="button" title="Tutti i metadati">Tutti i metadati</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--Fine etichetta "Ultimi anni"-->
+
+
+						</div>
+					</div>
+				</div>
+
+
+				<!--Aside destra-->
+				<div class="col-md-2">
+					<div class="row">
+						<form class="form-inline mb-4">
+							<div class="form-group">
+								<input type="quadro" class="form-control" id="cercailquadro" placeholder="Cerca il quadro...">
+							</div>
+							<button type="submit" class="btn btn-warning">Cerca</button>
+						</form>
+						<br>
+						<div class="card aside-card">
+							<img src="immagini/roger/roger.jpeg" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title">Roger Wouters</h5>
+								<p class="card-text">Scopri i dati dell'autore</p>
+								<a href="artista.html" class="btn btn-warning">Vai alla pagina autore</a>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div class="row">
+						<div class="card aside-card">
+							<img src="immagini/roger/foto03.jpeg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Roger Wouters</h5>
+								<p class="card-text">Scopri la biografia dell'autore</p>
+								<a href="biografia.html" class="btn btn-warning">Vai alla biografia</a>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row">
+						<div class="card aside-card">
+							<img src="immagini/roger/foto07.jpeg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Interviste</h5>
+								<p class="card-text">Scopri le interviste relative a Roger Wouters</p>
+								<a href="disabled" class="btn btn-warning">Vai alle interviste</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fine aside destra-->
+
+
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid">
+		    <div class="row justify-content-between align-items-center">
+			    <div class="col-md-4">
+			        <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/it/" target="_blank"><img alt="Licenza Creative Commons" src="creativecommons.png" id="creative">
+			        <br>
+			        <br>
+			        </a>
+			        Quest'opera è distribuita con Licenza
+			        <br>
+			        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="link" target="_blank">Creative Commons: Attribuzione - Non commerciale - Condividi allo stesso modo 3.0 Italia</a>
+			    </div>
+			    <div class="col-md-4">
+			       	<p class="lead mb-0 pb-1 pt-1">&copy; Lorenzo Manenti, 
+			       	<br>
+			        Corso di Digital Humanities, gennaio 2022
+			    	</p>
+			        <br>
+				    <p class="lead mb-0 pb-1 pt-1">
+				    <b>Contatti:</b>
+				    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+				    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+				    </svg>
+				    lorenzo.manenti@studio.unibo.it
+				    </p>
+				    <br>
+				    <p class="lead mb-0 pb-1 pt-1"><b>Sede opere in esame:</b> 
+			        <br><i>Casa museo Roger Wouters</i> 
+			        <br>Via Ludovico Padre Sala 5, Aicurzio (MB), Italia. 
+			        </p>
+			    </div>
+			    <div class="col-md-4">
+			        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.3986298194437!2d9.41319182925009!3d45.63888139869395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786b19a88869ffb%3A0xf96f136ffa3da013!2sVia%20Padre%20Antonio%20Ludovico%20Sala%2C%205%2C%2020886%20Aicurzio%20MB!5e0!3m2!1sit!2sit!4v1643198783852!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			    </div>
+		   	</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<!--Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"> </script>
+	<!--importazione jquery necessaria per Bootstrap -->
+</body>

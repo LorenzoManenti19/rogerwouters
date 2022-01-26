@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<title>ROGER WOUTERS</title>
+
+	<!-- I meta servono per metadatare cioé descrivere il mio documento -->
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Roger Wouters, Lorenzo Manenti, arte" />
+	<meta name="description" content="Opere e biografia di Roger Wouters" />
+	<meta name="author" content="Lorenzo Manenti" />
+	<meta name="viewport" content="width=device-width, intial-scale=1-0" />
+	<!--Dovrebbe essere per rendere responsive-->
+	<!--metadati DC-->
+	<meta name="DC.title" content="I quadri di Roger Wouters">
+	<meta name="DC.creator" content="Lorenzo Manenti">
+	<meta name="DC.subject" content="raccolta">
+	<meta name="DC.subject" content="quadri Roger Wouters">
+	<meta name="DC.subject" content="pittura">
+	<meta name="DC.subject" content="XML/TEI">
+	<meta name="DC.description" content="raccolta completa dei quadri di Roger Wouters con informazioni sulla vita dell'autore">
+	<meta name="DC.publisher" content="Università di Bologna">
+	<meta name="DC.date" content="2022-01-27">
+	<meta name="DC.type" content="sito web">
+	<meta name="DC.format" content="HTML/CSS/JS/XML">
+	<meta name="DC.identifier" content="htpps://www."> <!--ATT.da mettere quando si mette su github-->
+	<meta name="DC.source" content="...">
+	<meta name="DC.language" content="it">
+	<meta name="DC.relation" content="http://www.rogerwouters.com">
+	<meta name="DC.coverage" content="Bologna">
+	<meta name="DC.rights" content="Copyright 2022 Lorenzo Manenti - Attribuzione - Non commerciale - Condividi allo stesso modo 3.0 Italia (CC BY-NC-SA)">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style/style.css" />
+	<!--voglio utilizzare i nomi delle icone di google così come sono nel CSS google-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+</head>
+
+<body>
+	<header>
+		<!--da capire H1--->
+		<!--Ho usato Bootstrap per fare la navbar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+			<a class="navbar-brand menu-item active" href="index.html">
+				<h2>ROGER WOUTERS</h2>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+					<li class="nav-item">
+						<a class="nav-link menu-item" href="artista.html">L'artista<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link menu-item" href="biografia.html">Biografia</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled menu-item">Interviste</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle menu-item" href="browser.html" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Quadri</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+							<li><a class="dropdown-item menu-item" href="browser.html">Tutti i quadri</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item menu-item" href="disabled">Primi anni</a></li>
+							<li><a class="dropdown-item menu-item" href="anniitaliani.html">Anni italiani</a></li>
+							<li><a class="dropdown-item menu-item" href="disabled">Ultimi anni</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled menu-item">Contatti</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control mr-2" type="search" placeholder="Cerca nel sito" aria-label="Cerca nel sito">
+					<button class="btn btn-outline-dark" type="submit">Cerca</button>
+				</form>
+			</div>
+		</nav>
+
+		<div id="carouselExampleCaptions" class="carousel carousel-home slide" data-ride="carousel">
+			<ol class="carousel-indicators p-3">
+				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="immaginimod/tulipanisfondo.jpeg" class="d-block w-100" alt="I tulipani" id="tulipani">
+					<div class="carousel-caption d-none d-md-block p-5">
+						<h1 class="text-light">ROGER WOUTERS</h1>
+						<h2 class="text-white-50">collezione dei quadri dell'autore</h2>
+						<a href="#scopri-di-piu" class="btn btn-blue mt-4" title="Scopri di più">Scopri di
+							più sul progetto</a>
+						<a href="browser.html" class="btn btn-light mt-4" title="Esplora il catalogo">Esplora il catalogo</a>
+						<p class="img-caption mt-4">Immagine: <em>I gerani</em></p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="immaginimod/dehandvissfondo.jpeg" class="d-block w-100" alt="holland" id="tulipani">
+					<div class="carousel-caption d-none d-md-block p-5">
+						<h1 class="text-light">ROGER WOUTERS</h1>
+						<h2 class="text-white-50">collezione dei quadri dell'autore</h2>
+						<a href="#scopri-di-piu" class="btn btn-blue mt-4" title="Scopri di più">Scopri di
+							più sui primi anni</a>
+						<a href="browser.html" class="btn btn-light mt-4" title="Esplora il catalogo">Esplora il catalogo</a>
+						<p class="img-caption mt-4">Immagine: <em>De Handvis</em></p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="immaginimod/paesaggioinvernalesfondo.jpeg" class="d-block w-100" alt="paesaggio invernale">
+					<div class="carousel-caption d-none d-md-block p-5">
+						<h1 class="text-light">ROGER WOUTERS</h1>
+						<h2 class="text-light-50">collezione dei quadri dell'autore</h2>
+						<a href="#scopri-di-piu" class="btn btn-blue mt-4" title="Scopri di più">Scopri di più sugli anni italiani</a>
+						<a href="browser.html" class="btn btn-light mt-4" title="Esplora il catalogo">Esplora il catalogo</a>
+						<p class="img-caption mt-4">Immagine: <em>Paesaggio invernale</em></p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="immaginimod/ramiromod.jpg" class="d-block w-100" alt="ramiro" id="tulipani">
+					<div class="carousel-caption d-none d-md-block p-5">
+						<h1 class="text-light">ROGER WOUTERS</h1>
+						<h2 class="text-white-50">collezione dei quadri dell'autore</h2>
+						<a href="#scopri-di-piu" class="btn btn-blue mt-4" title="Scopri di più">Scopri di
+							più sugli ultimi anni</a>
+						<a href="browser.html" class="btn btn-light mt-4" title="Esplora il catalogo">Esplora il catalogo</a>
+						<p class="img-caption mt-4">Immagine: <em>Ramiro</em></p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" title="Avanti">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" title="Indietro">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</header>
+
+
+	<section id="sfondo">
+		<div class="container">
+			<br>
+			<div class="row placeholder">
+				<div class="col-md-7">
+					<h3>Roger: voglio solo dipingere</h3>
+					<p class="lead">
+						Artista inquieto, rivoluzionario, anticonformista, eretico.
+						Le sue mani, il suo cuore non conoscono altra espressione: "Le mie mani vogliono solo dipingere". [...] A fatica gli strappi che
+						sì, ha frequentato l'Accademia e le scuole d'arte, fin da giovanissimo, ma ride: "Sono sempre fuggito dalle scuole e dalle istituzioni (ha rifiutato di insegnare a Brera; insofferente agli orari, alle posizioni fisse), poi tornavo. Anche ora fuggo, da ogni luogo. Ritorno, poi fuggo di nuovo".
+						<br>
+						[...] Roger raccoglie, con intensità appassionata, l'esigenza di estrinsecare nella "forma" - con un segno che rifugge gli aspetti realistico-illustrativi - una pittura le cui immagini gli provengono dall'inconscio e oltre, e va oltre.
+					</p>
+					<p id="firma">
+					Il tempo, 10 marzo 1984
+					</p>
+					<br>
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<img class="img-fluid" src="immagini/madreefiglia.jpeg" alt="Madre e figlia" title="Madre e figlia, 1967">
+					</div>
+					<br>
+					<br>
+					<div class="row">
+						<a href="artista.html" class="btn btn-outline-dark mx-auto">Scopri di più sull'autore</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row placeholder">
+				<div class="col-md-4"> 
+					<img class="img-fluid" src="immagini/lhoportataio.jpeg" alt="L'ho portata io" title="L'ho portata io, 1982">
+					<br>
+					<br>
+					<div class="row">
+						<a href="biografia.html" class="btn btn-outline-dark mx-auto">Scopri di più sulla biografia</a>
+					</div>
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-7">
+					<h3><i>Roger W.</i>: un racconto</h3>
+					<p class="lead">
+					Roger W. è morto ormai da molto tempo. 
+					<br>
+					Di lui, oggigiorno, restano i ricordi, falsati dalle emozioni e conservati dalle fotografie sbiadite dal tempo. Della gente che lo ha conosciuto: le sue amanti abbandonate, Marie D. e Lucie A.; i suoi figli, otto in totale, due avuti con la prima moglie e sei con la seconda; i suoi amici, pochi, ancora in vita. Della gente che avendo udito i racconti su di lui lo avrebbe voluto conoscere: i suoi nipoti, quattro avuti dalla prima famiglia, otto avuti dalla seconda; qualche disperato collezionista di storie e opere del passato. 
+					<br>
+					Di lui, oggigiorno, restano i dipinti, un poco smunti e appassiti dal tempo, di poco valore e per questo disseminati tra le più sperdute e implausibili gallerie, musei, case, chiese, bar e perfino scuole del Belgio e della Lombardia. 
+					<br>
+					Di lui, oggigiorno, resta un'idea, astratta e deformata dal tempo, un'immagine idealizzata di uno stile di vita e di una passione compositiva retti da un'autentica e integra naturalezza che mi piace definire libertà.
+					</p>
+					<p id="firma">
+					Lorenzo Manenti
+					</p>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row placeholder">
+				<div class="col-md-7">
+					<h3>Testimonianza</h3>
+					<p class="lead">
+						[...] C'è nei tuoi quadri una vibrante sospensione e l'incanto di una attesa e le immagini vengono poco a poco alla superficie. E vedo i paesaggi e i luoghi dove vivi ora, vicino all'Adda; questo fiume placido e tragico insieme scorre, si vede, nel tuo sangue e ci bevi, si sente, la malinconia di Bruges con i piccoli canali e i pesci verdi. Anche nei visi di donna, anzi nelle loro aspirazioni, non si cancella, e nei giardini e nei fiori.
+						<br>
+						Che c'è nello spirito nordico che associa più profondamente che altrove la tristezza alla felicità e alla morte? Forse il bisogno di avvicinarsi all'essenza delle cose, al loro profondo significato metafisico; così che intanto che un
+						fiore sboccia già comincia a morire, intanto che uno ride già sta tornando serio e un fiume limpido già si sta inquinando.
+						<br>
+						Tutto questo vedo nei tuoi quadri Roger e questo è quello che muove uno che dipinge a dipingere, e quello che scrive a scrivere e quello che vive a vivere.
+						E per me è abbastanza, e per qualunque altro.
+						<br>
+					</p> 
+					<p id="firma">
+					Gianni Dova
+					</p>
+				</div>	
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<img class="img-fluid" src="immagini/zondagmorgencopia.jpeg" alt="Zondag morgen" title="Zondag morgen, 1969">
+					</div>
+					<br>
+					<div class="row">
+						<a href="interviste.html" class="btn btn-outline-dark mx-auto">Scopri di più sulle interviste</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<!--TASTO TORNA SU collegato id="top" nella navbar-->
+		<div class="container">
+			<a href="#top" class="btn btn-outline-dark">Torna su</a>
+		</div>
+		<br>
+		<br>
+	</section>
+	<footer>
+		<div class="container-fluid">
+		    <div class="row justify-content-between align-items-center">
+			    <div class="col-md-4">
+			        <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/it/" target="_blank"><img alt="Licenza Creative Commons" src="creativecommons.png" id="creative">
+			        <br>
+			        <br>
+			        </a>
+			        Quest'opera è distribuita con Licenza
+			        <br>
+			        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="link" target="_blank">Creative Commons: Attribuzione - Non commerciale - Condividi allo stesso modo 3.0 Italia</a>
+			    </div>
+			    <div class="col-md-4">
+			       	<p class="lead mb-0 pb-1 pt-1">&copy; Lorenzo Manenti, 
+			       	<br>
+			        Corso di Digital Humanities, gennaio 2022
+			    	</p>
+			        <br>
+				    <p class="lead mb-0 pb-1 pt-1">
+				    <b>Contatti:</b>
+				    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+				    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+				    </svg>
+				    lorenzo.manenti@studio.unibo.it
+				    </p>
+				    <br>
+				    <p class="lead mb-0 pb-1 pt-1"><b>Sede opere in esame:</b> 
+			        <br><i>Casa museo Roger Wouters</i> 
+			        <br>Via Ludovico Padre Sala 5, Aicurzio (MB), Italia. 
+			        </p>
+			    </div>
+			    <div class="col-md-4">
+			        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d697.3986298194437!2d9.41319182925009!3d45.63888139869395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786b19a88869ffb%3A0xf96f136ffa3da013!2sVia%20Padre%20Antonio%20Ludovico%20Sala%2C%205%2C%2020886%20Aicurzio%20MB!5e0!3m2!1sit!2sit!4v1643198783852!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			    </div>
+		   	</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<!--Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"> </script>
+	<!--importazione jquery necessaria per Bootstrap -->
+
+</body>
+
+</html>

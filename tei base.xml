@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Roger W.: un racconto</title>
+				<respStmt>
+					<resp>autore</resp>
+					<name xml:id="LM">Lorenzo Manenti</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+				Lorenzo Manenti
+				</publisher>
+				<pubplace>Bologna</pubplace>
+				<availability>
+				<licence>Licenza Creative Commons: Attribuzione - Non commerciale - Condividi allo stesso modo 3.0 Italia (CC BY-NC-SA 3.0 IT) </licence>
+				</availability>
+				<date>2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Trascrizione di racconto biografico-finzionale in prosa born-digital</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div type="title">Roger W.</div>
+			<div type="dedication">
+				<p>Dedicato a Elsa Adriaensen</p>
+			</div>
+			<div type="prefaction">
+				<p> 
+					<name type="person">Roger
+						<choice>
+							<abbr type="surname">W.</abbr>
+							<expan>Wouters</expan>
+						</choice>
+					</name> 
+					è morto ormai da molto tempo. 
+					Di lui, oggigiorno, restano i ricordi, falsati dalle emozioni e conservati dalle fotografie sbiadite dal tempo. Della gente che lo ha conosciuto: le sue amanti abbandonate, 
+					<name type="person">Marie 
+						<choice>
+							<abbr type="surname">D.</abbr>
+							<expan>Delacroix</expan>
+						</choice>
+					</name> e 
+					<name type="person">Lucie 
+						<choice>
+							<abbr type="surname">A.</abbr>
+							<expan>Adriaensen</expan>
+						</choice>
+					</name>; i suoi figli, 
+					<num type="cardinal" value="8">otto</num>
+					in totale, 
+					<num type="cardinal" value="2">due</num>
+					avuti con la prima moglie e 
+					<num type="cardinal" value="6">sei</num>
+					con la seconda; i suoi amici, pochi, ancora in vita. Della gente che avendo udito i racconti su di lui lo avrebbe voluto conoscere: i suoi nipoti, 
+					<num type="cardinal" value="8">quattro</num>
+					avuti dalla prima famiglia, 
+					<num type="cardinal" value="8">otto</num>
+					avuti dalla seconda; qualche disperato collezionista di storie e opere del passato.
+					Di lui, oggigiorno, restano i dipinti, un poco smunti e appassiti dal tempo, di poco valore e per questo disseminati tra le più sperdute e implausibili gallerie, musei, case, chiese, bar e perfino scuole del 
+					<name type="country">Belgio</name>
+					e della 
+					<name type="region">Lombardia</name>.
+					Di lui, oggigiorno, resta un'idea, astratta e deformata dal tempo, un'immagine idealizzata di uno stile di vita e di una passione compositiva retti da un'autentica e integra naturalezza che mi piace definire libertà.
+				</p>
+			</div>
+		</front>
+		<body>
+			<div type="section" n="1">
+				<p> 
+				<name type="person">Roger <choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name> nasce a <name type="city">Brugge</name>, in <name type="country">Belgio</name>, il <date when="1937-01-12" calendar="gregorian">12 gennaio 1937</date>. 
+				A proposito della sua infanzia non si sa molto. Sicuramente cresce durante la guerra. 
+				Una volta disse ad un amico che <q type="spoken">il primo ricordo della sua vita (presumibilmente vero, in quanto aveva tre anni e mezzo) coincideva con la ritirata dei soldati inglesi e il conseguente arrivo di quegli stessi tedeschi che per quattro anni avrebbero poi comandato quella piccola ma cruciale nazione detta cuore d'<name type="country">Europa</name></q>. La prima fotografia che abbiamo di lui invece raffigura lo scenario opposto, la liberazione del <name type="country">Belgio</name>, con il piccolo <name type="person">Roger</name> ritratto con le braccia alzate in segno di festa in mezzo a due motociclette dell'esercito canadese.
+				Che la guerra e la conseguente vita sotto regime straniero abbiano in qualche modo influito sulla formazione del suo immaginario è pressoché indubbio, ma, al tempo stesso questo discorso non può non essere applicato alla sua intera generazione. Rispetto all'immaginario della guerra, è il rapporto con la famiglia a individualizzare maggiormente il suo carattere. Dopo anni in cui cresce all'ombra dei genitori, adeguandosi alle loro volontà, nella confortante sicurezza familiare, verso i sedici anni inizia un cammino di graduale e progrediente allontanamento che culmina con la scelta di iscriversi alla <term>facoltà di belle arti</term> e non a quella di <term>giurisprudenza</term> voluta dalla madre. Sicuramente è possibile affermare che la sua formazione si sia sviluppata nella contrapposizione con la sua famiglia d'origine e che essa sia divenuta un elemento centrale di tutta la sua vita. Oltre alla mancata libertà di scelta, un elemento essenziale di questa contrapposizione è la differente visione riguardo ad idee politiche, in quanto conservatrice la famiglia, progressista lui, e aspirazioni sociali, borghesi loro, proto-comuniste lui. A tal riguardo, un motivo scatenante della frattura può essere considerata la scoperta da parte di <name type="person">Roger</name> del ruolo collaborazionista che la famiglia ebbe durante la guerra. La stessa foto che lo ritraeva con le braccia alzate nel giorno della liberazione diventa per lui come il marchio della menzogna, simbolo di un'ipocrisia calcolata per nascondere una scomoda verità. Se la famiglia in un primo momento cerca di assecondarlo, quando nasce il secondo figlio, <name type="person">Luc <choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name>, le attenzioni vengono spostate tutte sul nascituro e <name type="person">Roger</name>, ormai diciannovenne, si stacca definitivamente da loro, andando a vivere da solo.
+				Lo stesso anno si iscrive dunque all'<term>accademia di belle arti</term>, ma insofferente agli orari, alle posizioni fisse, abbandona presto gli studi e le istituzioni per fare l'apprendista presso lo studio del pittore <name type="person">Jef Van Tuerenhout</name>. Durante questi anni, studia come autodidatta e visita gallerie, cercando di affermarsi nell'ambiente.
+				Per certo tempo va a lavorare in miniera a <name type="city">Waterschei</name> e <name type="city">Limburgo</name>, ad estrarre carbone a <measure type="height" quantity="1200" unit="metres">1200 metri</measure> sotto il suolo insieme a molti altri lavoratori, perlopiù italiani, che a quel tempo popolano l'entroterra belga, al fine di esaminare le loro condizioni di lavoro e individuare possibili soggetti da dipingere.
+				Nel <date when="1958" calendar="gregorian">1958</date> capisce che è giunto il momento di abbandonare il <name type="country">Belgio</name> e va in <name type="country">Spagna</name> per qualche mese con l'intenzione di studiare <name type="painter">El Greco</name>, <name type="painter">Goya</name> ed entrare in contatto con la corrente surrealista spagnola. Dopo diverse settimane, questa volta affascinato da <name type="painter">Matisse</name>, decide di spostarsi in <name type="country">Francia</name>. A <name type="city">Parigi</name> conosce <name type="person">Philippe d'Arschot</name> e con lui co-fonda il gruppo <name type="group"><hi rend="italic">Lumen-Numen</hi></name>, un luogo di ritrovo per discutere di pittura e dipingere seguendo gli influssi del tempo. Il gruppo nei suoi primi tempi hon ha molta fortuna fin quando viene ripreso e ampliato qualche anno più tardi.
+				Tornato in <name type="country">Belgio</name> senza soldi e con il problema dell'alcool, fa affidamento sui genitori e torna a vivere in casa loro. Durante una festa a <name type="city">Bruxelles</name>, conosce una ragazza di nome <name type="person">Marie <choice><abbr type="surname">D.</abbr><expan>Delacroix</expan></choice></name>. I suoi genitori, conoscendo la famiglia di lei, gli promettono una dote consistente purché la sposi e allora <name type="person">Roger</name> accetta credendo di risolvere i suoi problemi economici e al tempo stesso poter rinsaldare definitivamente il rapporto con la famiglia che, dopo tutto, essendo lui un uomo d'onore, non poteva abbandonare. Col tempo però, l'ingerenza familiare nella sua vita personale diviene sempre più marcata e cominciano a comparire in lui i primi segni di esasperazione. Sebbene tollerino i suoi tentativi come pittore, sono loro a prendere le decisioni che dovrebbero spettare a lui. 
+				L'amore con <name type="person">Marie</name> è segnato da una grande passione iniziale che presto, soprattutto considerando le due abitudini di vita integralmente differenti, si smorza in un progressivo affievolimento. Dopo un anno dal loro matrimonio, nasce il loro primo figlio, <name type="person">Max W.</name>. <name type="person">Marie</name> fa più affidamento sui suoceri che sul marito per crescere il figlio e <name type="person">Roger</name>, non potendo contrastare attivamente la situazione, riversa le sue emozioni nell'alcool.
+				A <name type="city">Bruxelles</name> fonda il gruppo <name type="group"><hi rend="italic">Onderaard</hi></name> insieme ad altri amici artisti e invaso da una nuova smania creativa, torna in <name type="country">Spagna</name> per portare le idee e lo stile del suo gruppo in tutta <name type="continent">Europa</name>. A <name type="city">Barcellona</name> incontra <name type="person">Mirò</name>. Come il pittore spagnolo, è affascinato dal surrealismo, ma non condivide il principio dell'automatismo creativo e dell'assoluta passività dell'artista. A parte l'incontro con <name type="person">Mirò</name>, l'esperienza in <name type="country">Spagna</name> si rivela fallimentare. Litiga con altri membri del gruppo e ritorna in <name type="country">Belgio</name> da <name type="person">Marie</name>. 
+				Qualche mese più tardi, durante una mostra ad <name type="city">Anversa</name>, incontra <name type="person">Lucie <choice><abbr type="surname">A.</abbr><expan>Adriaensen</expan></choice></name>, moglie di un commerciante di quadri e con lei inizia una storia d'amore segreta e appassionata Per poter restare lontano da <name type="person">Marie</name> e <name type="person">Max</name> che vivono a <name type="city">Brugge</name>, <name type="person">Roger</name> finge una possibile collaborazione artistica ad <name type="city">Anversa</name>. Qui invece si ritrova con <name type="person">Lucie</name> in una stanza che dà sul porto. Lei posa e lui dipinge. Insieme frequentano i quartieri colmi di marinai e di storie provenienti da tutto il mondo. È quello che lui considera uno dei periodi migliori per la sua ispirazione artistica.  Il <date when="1964" calendar="gregorian">1964</date> infatti si rivela un anno particolarmente propizio dal punto di vista del riconoscimento artistico, avendo l'opportunità di esporre in diverse mostre e vendendo finalmente un numero sufficiente di quadri per potersi mantenere. Espone al <name type="museum">Museo di Belle Arti</name> di <name type="city">Bruxelles</name> ed è uno dei fondatori della <name type="museum">Bryggium Galerie</name> di <name type="city">Brugge</name>. Inoltre, è l'anno in cui nasce la prima figlia, <name type="person">Reine <choice><abbr type="surname">A.</abbr><expan>Adriaensen</expan></choice></name>, avuta da <name type="person">Lucie</name>, che nel frattempo divorzia dal marito.
+				Conducendo una doppia vita, si riavvicina emotivamente a <name type="person">Marie</name> che l'anno seguente si ritrova nuovamente incinta. Nasce <name type="person">Claudine <choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name>. La ritrovata situazione di serenità però non si protrae per a lungo, perché i genitori e soprattutto <name type="person">Marie</name> scoprono la relazione segreta che intrattiene con <name type="person">Lucie A.</name>. 
+				Ciò nonostante non smette di andare ad <name type="city">Anversa</name>. La situazione familiare diventa incandescente, insostenibile quando si viene a sapere che <name type="person">Lucie</name> è nuovamente incinta, questa volta di <name type="person">Elsa <choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name>. La nascita della seconda figlia avuta dall'amante diventa così il punto di non ritorno nella relazione con <name type="person">Marie</name> e nel rapporto con i genitori. Sul fronte artistico, dopo anni di difficoltà, dipingendo un quadro dedicato a <name type="poet">William Blake</name>, riesce a vincere premi per attività artistiche nello stato belga e a stabilire i primi contatti con la galleria di una fondazione italiana. L'<name type="country">Italia</name> diventa così nell'immaginario di <name type="person">Roger</name> il paese della possibile fuga, il luogo dove poter inseguire la felicità. Intensifica i contatti, compie studi su pittori del rinascimento e fa una prima visita al bel paese, soggiornando tra <name type="city">Milano</name> e la <name type="country">Svizzera</name>, esperienza decisiva per poter attuare il trasferimento. Lascia la sua famiglia, lascia la moglie <name type="person">Marie</name>, i due figli avuti con lei ed insieme a <name type="person">Lucie</name> e alle loro figlie si trasferisce a <name type="city">Milano</name>. È il <date when="1968" calendar="gregorian">1968</date>. 
+				Il clima di fermento culturale in Italia è alimentato dalle rivolte sociali e la poetica di <name type="person">Roger</name> nel marasma prodotto dalla neo-avanguardia degli anni precedenti trova il suo contesto ideale. Insieme a <name type="person">Lucie A.</name>, sono assidui frequentatori del Bar Jamaica nel quartiere di <name type="neighborood">Brera</name> e stringono molte relazioni con artisti milanesi. Conosce <name type="person">Gianni Dova</name>, conosce <name type="person">Sandro Zanotto</name>, conosce <name type="person">Emiddio Pietraforte</name>. Tramite la loro intercessione, espone in diverse mostre a <name type="city">Milano</name> e in tutta la <name type="region">Lombardia</name>, mentre dal <name type="country">Belgio</name> riceve critiche positive, con diversi articoli dedicati alla sua opera a firma di critici in voga. Nel frattempo, nonostante la lontananza, inizia una corrispondenza con alcuni dei suoi amici belgi che lo porterà ad essere uno dei componenti del ritrovato <name type="group"><hi rend="italic">Lumen Numen</hi></name>. 
+				Con <name type="person">Lucie</name> i primi anni in <name type="country">Italia</name> sono segnati da numerosi mutamenti e novità. Si muovono spesso, cambiando molte volte casa e adattandosi a situazioni difficili. Nel giro di pochi anni, nascono altri quattro figli, <name type="person">Roger <choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name>, <name type="person">Gioia<choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name>, <name type="person">Marianna <choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name> e <name type="person">Lucia <choice><abbr type="surname">W.</abbr><expan>Wouters</expan></choice></name>. Dovendo mantenerli, con un conseguente e comprensibile aumento delle spese, sono però costretti a trasferirsi più volte, allontanandosi da <name type="city">Milano</name> e muovendosi di paese in paese in <name type="region">Brianza</name>.
+				Nel <date when="1975" calendar="gregorian">1975</date>, con la nuova famiglia, <name type="person">Roger</name> si stabilisce definitivamente in un piccolo paese, <name type="city">Aicurzio</name>, in una casa che negli anni fungerà da punto di ritrovo e museo. Nello stesso anno, inizia a stabilire legami con artisti liguri che lo porteranno a dipingere su ceramica e a esporre in diverse gallerie sulla <name type="region">Riviera di Ponente</name>. Incontra l'editore <name type="person">Vanni Scheiweiller</name>, parlando di una possibile collaborazione per la stesura di un libro che non sarà mai scritto. Per la prima volta dopo <time notBefore="1968" notAfter="1976"><num type="cardinal" value="8">otto</num> anni</time> decide di tornare in <name type="country">Belgio</name>. <name type="person">Marie</name> gli nega di vedere i figli, ma per intercessione dei genitori di lui li incontra. Torna in <name type="country">Italia</name> con un riconoscimento economico da parte del ministero della cultura del <name type="country">Belgio</name>. 
+				I seguenti sono anni di contrastata stasi. I figli crescono: spesso li porta con sè per i bar, organizza con loro escursioni nei dintorni, si interessa al loro percorso scolastico. Affitta uno studio in paese così da poter esser più presente in casa. Ma per quanto provi a farsi trascinare dalla quieta ordinarietà di un'atmosfera familiare, la nostalgia lo persuade, lo trascina e si ritrova a ricercare lo straordinario nell'alcool. I legami col <name type="country">Belgio</name> si diradano fino a scomparire del tutto. La malinconia dell'<name type="river">Adda</name>, i bar di provincia, le relazioni poco spontanee diventano i motivi della sua vita e rimpiange il dinamico idealismo del passato che, sopravvivendo nelle storie utopiche che racconta ai figli, ritorna con il suo peso nella distanza. Tenta di ricostruire questo mondo in casa sua, ospitando amici, e isolandosi nel suo studio, ma per quanto ci provi, alla fine della giornata rimangono soltanto le discussioni, spesso culminanti in scontri fisici, con <name type="person">Lucie</name> 
+				Rimanendo stabili ad <name type="city">Aicurzio</name>, <name type="person">Roger</name> si allontana dall'ambiente milanese, fatica a vendere e per questo viaggia in altre città per testare il mercato. Visita ed esibisce le sue opere a <name type="city">Padova</name>, <name type="city">Firenze</name> e <name type="city">Roma</name>. Accetta lavori che in altri tempi non avrebbe accettato, come dipingere nelle chiese e ritrarre su commissione. Torna in <name type="country">Belgio</name> e riesce a fare in modo che il <name type="museum">Museo di Belle Arti</name> di <name type="city">Brugge</name> acquisisca alcune delle sue opere. 
+				Dal <date when="1980">1980</date> intensifica i contatti con le gallerie romane, affitta uno studio ad <name type="person">Albano Laziale</name> e proprio a <name type="city">Roma</name> partecipa e vince il <name type="award">Premio Marco Aurelio</name>. Qui riesce ad organizzare una mostra personale, finendo così per vivere periodi molto lunghi lontano da casa. La situazione familiare peggiora in modo inevitabile a causa delle sempre più frequenti lontananze e dei soliti problemi economici fino a sprofondare inesorabilmente. 
+				Nel <date when="1985" calendar="gregorian">1985</date>, ottenendo una Borsa di studio da parte del ministero belga, torna a vivere in <name type="country">Belgio</name>, mentre <name type="person">Lucie</name> decide ormai, cresciuti i figli, di restare in <name type="country">Italia</name>. <name type="person">Roger</name> sceglie <name type="city">Ostenda</name> come città in cui vivere e affitta un piccolo studio con vista sul <name type="sea">Mare del Nord</name>. Conosce e si innamora di <name type="person">Irene V.</name>, il suo ultimo amore, con cui convive per gli ultimi anni. 
+				Di questo suo ultimo periodo non si sa molto. Stette parecchio da solo e cercò di porre rimedio a qualche situazione spiacevole. Qualche volta andò a <name type="city">Brugge</name>, come quando morì sua madre, come quando morì suo padre. Conobbe meglio suo fratello. Incontrò <name type="person">Max</name> e <name type="person">Claudine</name> divenuti ormai grandi. Litigò ancora con <name type="person">Marie</name> Una volta tornò perfino in <name type="country">Italia</name>, ma ci restò soltanto per qualche giorno, dovendo sistemare alcuni inghippi burocratici. Più volte invece i figli di <name type="person">Lucie</name> andarono in <name type="country">Belgio</name> a trovarlo e incontrarono addirittura <name type="person">Irène</name>. Mai lo fece <name type="person">Lucie A.</name> E sembrerebbe che i figli l'avessero convinta ad andare nel mese di agosto del <date when="1989" calendar="gregorian">1989</date>, quando, una settimana prima di partire, arrivò ad <name type="city">Aicurzio</name> una lettera ufficiale che li informava della sua morte. 
+				Decisero di non partire, di restare insieme, figli e madre, di continuare le loro vite. 
+				Decisero poi di partire l'anno successivo, ma non riuscirono mai a scoprire dove fosse sepolto.
+				Decisero che per spirito di sopravvivenza dovevano andare avanti, sopportare il peso e andare avanti: avanti, senza fermarsi mai, così come aveva fatto lui.
+				</p>
+			</div>
+		</body>
+		<back>
+			<div type="colophon">
+				<p><name type="city">Aicurzio</name>, <date when="2021-07">Luglio 2021</date></p>
+			</div>
+		</back>
+	</text>
+</TEI>

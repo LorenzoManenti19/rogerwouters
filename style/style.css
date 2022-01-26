@@ -1,0 +1,127 @@
+/* ELEMENTI */
+h1 {
+  font-family: copperplate;
+}
+
+h2 {
+  font-family: copperplate;
+  text-align: center;
+}
+
+h3 {
+  font-family: copperplate;
+  text-align: justify;
+}
+
+h6 {
+  font-family: garamond;
+  text-align: center;
+}
+
+table {
+  border: 5px;
+}
+
+footer {
+  background-color: #ff9933;
+  text-align: center;
+}
+
+iframe {
+  height:300px;
+  width:400px;
+  align-items: center;
+}
+
+a {
+  color: #B5AA99;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #006B60;
+  font-weight: 900;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+/* CLASSI */
+.menu-item {
+  text-decoration: none;
+}
+
+.lead {
+  font-family: garamond;
+  text-align: justify;
+}
+
+#paratesto {
+  font-family: copperplate;
+  text-align: right;
+}
+
+.aside-card {
+  width: 12rem;
+  background-color: yellow
+}
+
+.breadcrumb {
+  background: transparent;
+}
+
+.breadcrumb-link {
+  color: #6c757d;
+}
+
+/* ID */
+#fasciaintestazione {
+  background-color: #ffff99;
+  text-align: center;
+  border-bottom: ;
+}
+
+#tulipani {
+  opacity: 0.8;
+}
+
+#madreefiglia {
+  opacity: 0.5;
+}
+
+#navbar {
+  background-color: #ffb84d;
+}
+
+#sfondo {
+  background-color: #ffffcc;
+}
+
+#bottonenavbar {
+  align-content: grid-row-end;
+}
+
+#nero {
+  color: black;
+}
+
+#cercailquadro {
+  margin-right: 10px;
+}
+
+#firma {
+  font-family: copperplate;
+  text-align: right;
+}
+
+#licenza {
+  border-width: 0;
+  width: 60px;
+  margin-right: 5px;
+}
+
+#creative {
+  height:50px;
+  width:175px;
+}

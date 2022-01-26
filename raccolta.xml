@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raccolta xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="quadrirogerwouters"> <!--xml:id fa parte della sintassi xml-->
+	<quadro xml:id="qrw9">
+		<dc:title>Maternità</dc:title>
+		<dc:creator>Wouters, Roger</dc:creator>)
+		<dc:subject>quadro</dc:subject>
+		<dc:subject>surrealismo</dc:subject>
+		<dc:subject>pittura></dc:subject>
+		<dc:description xml:lang="it">Dipinto di Roger Wouters raffigurante il concetto di maternità attraverso la rappresentazione di una madre e una figlia su uno sfondo bucolico composto da colori caldi.</dc:description>
+		<dc:date>1980</dc:date>
+		<dc:type>dipinto</dc:type>
+		<dc:format>tela</dc:format>
+		<dc:format>olio</dc:format>
+		<dc:format>85 cm x 105 cm</dc:format>
+		<dc:identifier>009</dc:identifier> 
+		<dc:source>....jpeg</dc:source> <!--sorgente del contenuto pubblicato in quella pagina, cioè il file jpeg-->
+		<dc:relation>http://www.rogerwouters.com</dc:relation>
+		<dc:coverage>Casa museo Roger Wouters</dc:coverage>
+		<dc:coverage>Aicurzio</dc:coverage>
+		<dc:rights>CC BY-NC-SA <!--creative commons: BY: attribuzione, devi citare; NC: non commerciale; SA: share alike: condividi allo stesso modo --> </dc:rights>
+	</quadro>	
+</raccolta>
